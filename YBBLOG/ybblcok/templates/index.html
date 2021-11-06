@@ -1,0 +1,16 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+    <div class="jumbotron text-center">
+        <h3 > YB Blog kanalına hoş geldiniz.</h3>
+        <p>Bu blogumuzda nasıl makale ekleyecegimizi konusacağız.</p>
+    </div>  
+
+    {% if answer == 'evet' %}
+        <p>Cevabımız Evetmiş</p>
+    {% else %}
+        <p>Cevabımız evet degilmiş</p>  
+    {% endif %}
+
+
+{% endblock body %} 
